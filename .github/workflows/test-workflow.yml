@@ -5,6 +5,7 @@ name: test-workflow
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Here's an extra comment, just so I can push this file back up to the remote
   push:
     branches: [ "main" ]
   pull_request:
